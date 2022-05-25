@@ -69,3 +69,32 @@ body {
 *::selection{
     background-color: #ff00ff33;
 }
+
+
+@media screen and (max-width: 900px) {
+    body {
+        background: unset;
+        margin: 0%;
+        padding: 0%;   
+    }
+    .sheet {
+        width: 97%;
+        height: 600px;
+        padding: 2%;
+        margin: 0%;
+    }
+    .main {
+        margin: 2%;
+        padding: 0%;
+    }
+    iframe {
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    iframe {
+        margin-top: 75%;
+        height: 50%;
+    }
+}
